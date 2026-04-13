@@ -4,12 +4,15 @@ import './index.css'
 import App from './App.tsx'
 import { HeroUIProvider } from '@heroui/react'
 import { Toaster } from 'sileo'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <HeroUIProvider>
       <Toaster>
+        <BrowserRouter>
         <App />
+        </BrowserRouter>
       </Toaster>
     </HeroUIProvider>
   </StrictMode>
