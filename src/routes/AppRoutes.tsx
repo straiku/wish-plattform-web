@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import LazyLoading from './components/LazyLoading'
 
-const LoginPage = lazy(() => import('../pages/LoginPage'))
+const LoginPage = lazy(() => import('../pages/LoginPage/LoginPage'))
 
 const AppRoutes = () => {
   return (
