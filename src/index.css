@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap');
 
 @import 'tailwindcss';
+@import '@heroui/styles';
 
 /* Conectar el plugin de HeroUI */
-@plugin './hero.ts';
-@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
-@custom-variant dark (&:is(.dark *));
+/* @source '../node_modules/@heroui/theme/dist*.{js,ts,jsx,tsx}'; */
+/* @custom-variant dark (&:is(.dark *)); */
 
 @theme {
   /* Definición de colores */
