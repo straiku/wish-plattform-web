@@ -19,3 +19,85 @@
   --font-primary: 'Manrope', sans-serif;
   --font-secondary: 'Newsreader', serif;
 }
+
+:root,
+.light,
+.default,
+[data-theme='light'],
+[data-theme='default'] {
+  /* Theme Colors (Light Mode) */
+  --accent: oklch(67.24% 0.1308 38.76);
+  --accent-foreground: oklch(15% 0.0262 38.76);
+  --background: oklch(97.02% 0.02 38.76);
+  --border: oklch(90% 0.02 38.76);
+  --danger: oklch(65.32% 0.2421 359.93);
+  --danger-foreground: oklch(99.11% 0 0);
+  --default: oklch(94% 0.02 38.76);
+  --default-foreground: oklch(21.03% 0.0059 38.76);
+  --field-background: oklch(100% 0.01 38.76);
+  --field-foreground: oklch(21.03% 0.02 38.76);
+  --field-placeholder: oklch(55.17% 0.04 38.76);
+  --focus: oklch(67.24% 0.1308 38.76);
+  --foreground: oklch(21.03% 0.02 38.76);
+  --muted: oklch(55.17% 0.04 38.76);
+  --overlay: oklch(100% 0.006 38.76);
+  --overlay-foreground: oklch(21.03% 0.02 38.76);
+  --scrollbar: oklch(87.1% 0.02 38.76);
+  --segment: oklch(100% 0.02 38.76);
+  --segment-foreground: oklch(21.03% 0.02 38.76);
+  --separator: oklch(92% 0.02 38.76);
+  --success: oklch(73.29% 0.2012 125);
+  --success-foreground: oklch(21.03% 0.0059 125);
+  --surface: oklch(100% 0.01 38.76);
+  --surface-foreground: oklch(21.03% 0.02 38.76);
+  --surface-secondary: oklch(95.24% 0.016 38.76);
+  --surface-secondary-foreground: oklch(21.03% 0.02 38.76);
+  --surface-tertiary: oklch(93.73% 0.016 38.76);
+  --surface-tertiary-foreground: oklch(21.03% 0.02 38.76);
+  --warning: oklch(78.19% 0.1648 46.52);
+  --warning-foreground: oklch(21.03% 0.0059 46.52);
+
+  /* Border Radius */
+  --radius: 0.125rem;
+  --field-radius: 0.25rem;
+
+  /* Font Family */
+  /* Make sure to load Manrope font in your app */
+  --font-sans: 'Manrope', sans-serif;
+}
+
+.dark,
+[data-theme='dark'] {
+  color-scheme: dark;
+  /* Theme Colors (Dark Mode) */
+  --accent: oklch(67.24% 0.1308 38.76);
+  --accent-foreground: oklch(15% 0.0262 38.76);
+  --background: oklch(12% 0.02 38.76);
+  --border: oklch(28% 0.02 38.76);
+  --danger: oklch(59.4% 0.2046 358.82);
+  --danger-foreground: oklch(99.11% 0 0);
+  --default: oklch(27.4% 0.02 38.76);
+  --default-foreground: oklch(99.11% 0 0);
+  --field-background: oklch(21.03% 0.04 38.76);
+  --field-foreground: oklch(99.11% 0.02 38.76);
+  --field-placeholder: oklch(70.5% 0.04 38.76);
+  --focus: oklch(67.24% 0.1308 38.76);
+  --foreground: oklch(99.11% 0.02 38.76);
+  --muted: oklch(70.5% 0.04 38.76);
+  --overlay: oklch(21.03% 0.04 38.76);
+  --overlay-foreground: oklch(99.11% 0.02 38.76);
+  --scrollbar: oklch(70.5% 0.02 38.76);
+  --segment: oklch(39.64% 0.02 38.76);
+  --segment-foreground: oklch(99.11% 0.02 38.76);
+  --separator: oklch(25% 0.02 38.76);
+  --success: oklch(73.29% 0.2012 125);
+  --success-foreground: oklch(21.03% 0.0059 125);
+  --surface: oklch(21.03% 0.04 38.76);
+  --surface-foreground: oklch(99.11% 0.02 38.76);
+  --surface-secondary: oklch(25.7% 0.03 38.76);
+  --surface-secondary-foreground: oklch(99.11% 0.02 38.76);
+  --surface-tertiary: oklch(27.21% 0.03 38.76);
+  --surface-tertiary-foreground: oklch(99.11% 0.02 38.76);
+  --warning: oklch(82.03% 0.1444 50.53);
+  --warning-foreground: oklch(21.03% 0.0059 50.53);
+}
