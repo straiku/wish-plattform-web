@@ -3,12 +3,14 @@ import { Suspense, lazy } from 'react'
 import LazyLoading from './components/LazyLoading'
 
 const LoginPage = lazy(() => import('../pages/LoginPage/LoginPage'))
+const LandingPage = lazy(() => import('../pages/LandingPage/LandingPage'))
 
 const AppRoutes = () => {
   return (
     <Suspense fallback={<LazyLoading />}>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="*" element={<LoginPage />}></Route>
       </Routes>
     </Suspense>
