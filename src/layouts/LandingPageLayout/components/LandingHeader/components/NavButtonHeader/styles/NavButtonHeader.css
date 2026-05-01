@@ -1,0 +1,46 @@
+.nav-button {
+  position: relative;
+  padding-bottom: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.85;
+  width: min-content;
+  height: 70%;
+  transition: opacity 0.2s ease;
+}
+
+.nav-button:hover {
+  opacity: 1;
+}
+
+.nav-button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: black;
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    opacity 0.3s ease;
+  opacity: 0.25;
+}
+
+.nav-button:hover::after {
+  transform: scaleX(1);
+  background: black;
+  opacity: 0.25;
+}
+
+.nav-button.active::after {
+  transform: scaleX(1);
+  background: black;
+  opacity: 1;
+}
