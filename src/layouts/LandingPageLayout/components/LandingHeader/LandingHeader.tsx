@@ -6,7 +6,7 @@ import AvatarNameHeader from './logic/extractNameInitials'
 import NavMainButton from './components/NavButtonHeader/NavMainButtonHeader'
 import NavMobilButtonHeader from './components/NavMobilButtonHeader/NavMobilButtonHeader'
 
-const Header = () => {
+const LandingHeader = () => {
   const [active, setActive] = useState('inicio')
 
   const scrollToSection = (id: string) => {
@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="bg-secondary grid h-16 w-full max-w-[1920px] grid-cols-3 items-center max-[850px]:grid-cols-2">
+      <header className="bg-primary grid h-16 w-full max-w-[1920px] grid-cols-3 items-center max-[850px]:grid-cols-2">
         <h1 className="font-secondary ml-14 text-2xl italic max-[850px]:-mb-2 max-[850px]:ml-6 max-[850px]:text-lg">
           WishFactory
         </h1>
@@ -42,7 +42,7 @@ const Header = () => {
         </div>
       </header>
 
-      <nav className="bg-tertiary mx-auto hidden w-full justify-around max-[850px]:flex">
+      <nav className="bg-secondary mx-auto hidden w-full justify-around max-[850px]:flex">
         <div className="mx-auto flex w-11/12 items-center justify-around">
           <NavMobilButtonHeader
             id="inicio"
@@ -74,4 +74,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default LandingHeader
