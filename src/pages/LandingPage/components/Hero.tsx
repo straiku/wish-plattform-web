@@ -2,7 +2,7 @@ import { Button } from '@heroui/react'
 
 export default function Hero() {
   return (
-    <section className="flex h-screen max-w-[1280px] max-[1280px]:mx-6 min-[1280px]:mx-auto">
+    <section className="flex h-screen max-w-7xl max-[1280px]:mx-6 min-[1280px]:mx-auto">
       <div className="mt-44 flex flex-col gap-4 text-left">
         <p className="font-primary text-neutral text-sm tracking-wider">
           EQUIPO DE WISHFACTORY NO. 1
