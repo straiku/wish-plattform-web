@@ -5,7 +5,7 @@ function LandingPageLayout() {
   return (
     <div>
       <LandingHeader />
-      <main>
+      <main className="mx-auto">
         <Outlet />
       </main>
     </div>
