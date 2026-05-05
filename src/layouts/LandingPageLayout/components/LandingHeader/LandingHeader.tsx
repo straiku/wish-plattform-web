@@ -39,8 +39,8 @@ const LandingHeader = () => {
               onScroll={scrollToSection}
             />
             <NavMainButton
-              id="filosofia"
-              label="Filosofía"
+              id="mixwish"
+              label="MixWish"
               active={active}
               onScroll={scrollToSection}
             />
@@ -74,8 +74,8 @@ const LandingHeader = () => {
               onScroll={scrollToSection}
             />
             <NavMobilButtonHeader
-              id="filosofia"
-              label="Filosofía"
+              id="mixwish"
+              label="MixWish"
               active={active}
               onScroll={scrollToSection}
             />
