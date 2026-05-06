@@ -21,15 +21,17 @@ export default function MixWish() {
   return (
     <section className="bg-tertiary min-h-screen py-36">
       <div className="flex max-w-7xl pb-36 max-[1280px]:mx-6 min-[1280px]:mx-auto">
-        <section className="flex w-full justify-between border-b-2 border-black/5 pb-12">
-          <div className="flex flex-col gap-2.5">
-            <h4 className="font-secondary text-5xl">MixWish Semanal</h4>
-            <p className="text-neutral text-sm tracking-wider">
+        <section className="flex w-full justify-between border-b-2 border-black/5 pb-12 max-[570px]:flex-col max-[570px]:gap-6 max-[570px]:pb-3">
+          <div className="flex flex-col gap-2.5 max-[570px]:gap-0.5">
+            <h4 className="font-secondary text-5xl max-[570px]:text-4xl">MixWish Semanal</h4>
+            <p className="text-neutral text-sm tracking-wider max-[570px]:text-xs">
               LOS DESEOS MÁS POTENTES DE LA ÚLTIMA LUNA
             </p>
           </div>
-          <div className="flex h-full items-end">
-            <p className="font-secondary text-4xl text-black/30 italic">Vol.1</p>
+          <div className="flex h-full items-end max-[570px]:items-center max-[570px]:justify-end">
+            <p className="font-secondary text-4xl text-black/30 italic max-[570px]:text-3xl">
+              Vol.1
+            </p>
           </div>
         </section>
       </div>
