@@ -18,7 +18,7 @@ const LandingHeader = () => {
 
   return (
     <div>
-      <header className="bg-primary fixed inset-x-0 mx-auto flex h-16 w-full max-w-[1920px] flex-col max-[850px]:justify-between">
+      <header className="bg-primary fixed inset-x-0 z-50 mx-auto flex h-16 w-full max-w-[1920px] flex-col max-[850px]:justify-between">
         <div className="grid h-full grid-cols-3 items-center max-[850px]:grid-cols-2">
           <h1 className="font-secondary ml-14 text-2xl italic max-[850px]:-mb-2 max-[850px]:ml-6 max-[850px]:text-lg">
             WishFactory
