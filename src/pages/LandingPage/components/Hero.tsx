@@ -2,16 +2,16 @@ import { Button } from '@heroui/react'
 
 export default function Hero() {
   return (
-    <section className="flex min-h-screen max-w-7xl py-44 max-[1280px]:mx-6 min-[1280px]:mx-auto">
+    <section className="flex min-h-screen max-w-7xl items-center px-8 py-32 max-[1280px]:mx-6 max-[1280px]:px-0 min-[1280px]:mx-auto">
       <div className="flex flex-col gap-4 text-left">
-        <p className="font-primary text-neutral text-sm tracking-wider">
+        <p className="font-primary text-neutral text-sm tracking-wider max-[470px]:text-xs">
           EQUIPO DE WISHFACTORY NO. 1
         </p>
-        <p className="font-secondary w-2/4 text-8xl max-[530px]:text-5xl">
+        <p className="font-secondary w-2/4 text-8xl max-[1155px]:w-10/12 max-[1020px]:w-11/12 max-[820px]:text-7xl max-[530px]:text-5xl">
           El Futuro se Construye con <span className="text-amber-800 italic">Intención</span>.
         </p>
         <div className="font-primary mt-3">
-          <p className="text-neutral w-lg text-lg max-[530px]:w-auto">
+          <p className="text-neutral w-lg text-lg max-[530px]:w-auto max-[530px]:text-sm">
             En el corazón de Wish Factory, cada palabra es un átomo.
             <br />
             Forjamos desde realidades digitales a través de la voluntad y el diseño abosluto.
