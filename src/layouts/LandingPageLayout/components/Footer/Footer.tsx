@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer>
-      <div className="flex justify-around px-6">
-        <div className="w-96 flex-col justify-start gap-4">
-          <h6 className="font-secondary text-2xl italic max-[850px]:-mb-2 max-[850px]:ml-6 max-[850px]:text-lg">
+      <div className="flex justify-around gap-2 px-6">
+        <div className="w-96 flex-col justify-start gap-5 max-[850px]:mx-2">
+          <h6 className="font-secondary text-2xl italic max-[850px]:ml-6 max-[850px]:text-lg">
             WishFactory
           </h6>
           <p className="text-sm">
