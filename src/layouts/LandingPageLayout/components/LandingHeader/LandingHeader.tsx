@@ -4,7 +4,7 @@ import { Avatar } from '@heroui/react'
 
 import AvatarNameHeader from './logic/extractNameInitials'
 import NavMainButton from './components/NavButtonHeader/NavMainButtonHeader'
-import NavMobilButtonHeader from './components/NavMobilButtonHeader/NavMobilButtonHeader'
+import { NavMobilButtonHeader } from './components/NavMobilButtonHeader/NavMobilButtonHeader'
 
 const LandingHeader = () => {
   const [active, setActive] = useState('inicio')
@@ -46,41 +46,17 @@ const LandingHeader = () => {
             />
           </nav>
 
-          <div className="flex justify-end">
-            <Avatar className="mr-12 aspect-square shadow-sm max-[850px]:mr-6 max-[850px]:h-[2rem] max-[850px]:w-[2rem] max-[850px]:shadow-xs">
+          <div className="flex items-center justify-end max-[850px]:gap-2">
+            <Avatar className="mr-12 aspect-square shadow-sm max-[850px]:mr-0 max-[850px]:h-[2rem] max-[850px]:w-[2rem] max-[850px]:shadow-xs">
               <Avatar.Fallback className="">{AvatarNameHeader('Yariel Zamora')}</Avatar.Fallback>
             </Avatar>
+
+            <NavMobilButtonHeader
+              buttonClass="hidden max-[850px]:flex max-[850px]:mr-4"
+              scrollToSection={scrollToSection}
+            />
           </div>
         </div>
-
-        <nav className="bg-secondary mx-auto hidden w-full justify-around max-[850px]:flex">
-          <div className="mx-auto flex w-11/12 items-center justify-around">
-            <NavMobilButtonHeader
-              id="inicio"
-              label="Inicio"
-              active={active}
-              onScroll={scrollToSection}
-            />
-            <NavMobilButtonHeader
-              id="preview"
-              label="Preview"
-              active={active}
-              onScroll={scrollToSection}
-            />
-            <NavMobilButtonHeader
-              id="remixes"
-              label="Remixes"
-              active={active}
-              onScroll={scrollToSection}
-            />
-            <NavMobilButtonHeader
-              id="mixwish"
-              label="MixWish"
-              active={active}
-              onScroll={scrollToSection}
-            />
-          </div>
-        </nav>
       </header>
     </div>
   )
