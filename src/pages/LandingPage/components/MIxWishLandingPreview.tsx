@@ -4,7 +4,7 @@ import {
   numerCompactNotationFormatter,
 } from '../../../logic/numbers'
 import { HeartFill } from '@gravity-ui/icons'
-import type { MixWishLandingPreviewProps } from '../types/MixWishLanginPreview'
+import type { MixWishLandingPreviewProps } from '../types/MixWishLandingPreview'
 
 export default function MixWishLandingPreview({
   wishPlace,
