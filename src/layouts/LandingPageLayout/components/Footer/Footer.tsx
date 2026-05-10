@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import WaterMark from '../../../../components/WaterMark/WaterMark'
 
 export default function Footer() {
   return (
@@ -15,13 +16,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-row justify-around gap-20 max-[850px]:mt-5 max-[850px]:gap-5">
           <div className="font-primary flex flex-col flex-wrap justify-between gap-3 text-sm">
-            <p className="text-secondary mb-3">PLATAFORMA</p>
+            <p className="text-contrast mb-3">PLATAFORMA</p>
             <Link to="/">WishFactory</Link>
             <Link to="/mixwish">MixWish</Link>
             <Link to="/terms">Términos de uso y condiciones</Link>
           </div>
           <div className="flex flex-col flex-wrap justify-between gap-3 text-sm">
-            <p className="text-secondary mb-3">CONECTAR</p>
+            <p className="text-contrast mb-3">CONECTAR</p>
             <a href="https://instagram.com/straiku" target="_blank">
               Instagram
             </a>
@@ -32,6 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <WaterMark />
     </footer>
   )
 }
