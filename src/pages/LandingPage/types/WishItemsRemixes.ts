@@ -1,6 +1,5 @@
-
-export interface WishItemsProps{
-  index:number
+export interface WishItemsProps {
+  index: number
   title: string
-  content:string
+  content: string
 }
