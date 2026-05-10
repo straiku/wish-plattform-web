@@ -1,0 +1,8 @@
+name = "wishfactory"
+type = "javascript"
+compatibility_date = "2026-5-10"
+workers_dev = true
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
