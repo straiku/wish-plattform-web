@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "version": "1.0.0",
-  "description": "Worker para servir la WishFactory plattform",
-  "main": "index.js",
-  "dependencies": {
-    "@cloudflare/kv-asset-handler": "^0.5.0"
-  }
-}
