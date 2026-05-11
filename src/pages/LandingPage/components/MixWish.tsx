@@ -1,4 +1,4 @@
-import type { MixWishLandingPreviewProps } from '../types/MixWishLanginPreview'
+import type { MixWishLandingPreviewProps } from '../types/MixWishLandingPreview'
 import MixWishLandingPreview from './MIxWishLandingPreview'
 
 export default function MixWish() {
