@@ -9,8 +9,8 @@ export default function LandingPage() {
   return (
     <div className="bg-primary min-h-screen">
       <HeroSection />
-      <PreviewSection/>
-      <RemixesSection/>
+      <PreviewSection />
+      <RemixesSection />
       <MixWishSection />
       <PreFooterSection />
     </div>

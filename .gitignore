@@ -59,3 +59,7 @@ logs
 
 # wrangler
 metadata*
+
+# Next
+.next
+next-env.d.ts
