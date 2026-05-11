@@ -1,6 +1,6 @@
 import { Button } from '@heroui/react'
 
-export default function PreFooter() {
+export default function PreFooterSection() {
   return (
     <section className="mx-auto w-full py-20 text-center">
       <div className="font-secondary mx-auto flex max-w-7xl flex-col flex-wrap items-center gap-4 px-6 max-[870px]:p-0">

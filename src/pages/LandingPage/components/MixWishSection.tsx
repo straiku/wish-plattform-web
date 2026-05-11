@@ -1,7 +1,7 @@
 import type { MixWishLandingPreviewProps } from '../types/MixWishLandingPreview'
 import MixWishLandingPreview from './MIxWishLandingPreview'
 
-export default function MixWish() {
+export default function MixWishSection() {
   const mixWishes: MixWishLandingPreviewProps[] = [
     {
       wishTitle: 'Reclamar el silencio absoluto en el centro de las megaciudades.',
