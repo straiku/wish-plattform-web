@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import Preview from './components/Preview'
 import MixWish from './components/MixWish'
 import PreFooter from './components/PreFooter'
-import Remixes from './components/Remixes/Remixes'
+import Remixes from './components/Remixes'
 
 export default function LandingPage() {
   return (
