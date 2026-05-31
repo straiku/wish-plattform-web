@@ -1,6 +1,6 @@
-export default function Preview() {
+export default function PreviewSection() {
   return (
-    <section className="mx-auto w-full bg-white py-44">
+    <section id="preview" className="mx-auto w-full bg-white py-44">
       <p className="font-primary text-neutral mx-auto mb-25 flex max-w-7xl text-xs tracking-[0.3rem] max-[530px]:ml-6">
         FRAGMENTO DE WISH NO.36
       </p>

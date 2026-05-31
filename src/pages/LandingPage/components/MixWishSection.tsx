@@ -1,7 +1,7 @@
 import type { MixWishLandingPreviewProps } from '../types/MixWishLandingPreview'
 import MixWishLandingPreview from './MIxWishLandingPreview'
 
-export default function MixWish() {
+export default function MixWishSection() {
   const mixWishes: MixWishLandingPreviewProps[] = [
     {
       wishTitle: 'Reclamar el silencio absoluto en el centro de las megaciudades.',
@@ -19,7 +19,7 @@ export default function MixWish() {
   ]
 
   return (
-    <section className="bg-tertiary min-h-screen px-8 py-36 max-[1280px]:px-0">
+    <section id="mixwish" className="bg-tertiary min-h-screen px-8 py-36 max-[1280px]:px-0">
       <div className="flex max-w-7xl pb-36 max-[1280px]:mx-6 min-[1280px]:mx-auto">
         <section className="flex w-full justify-between border-b-2 border-black/5 pb-12 max-[570px]:flex-col max-[570px]:gap-6 max-[570px]:pb-3">
           <div className="flex flex-col gap-2.5 max-[570px]:gap-0.5">

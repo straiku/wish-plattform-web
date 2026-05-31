@@ -1,18 +1,18 @@
-import Hero from './components/Hero'
+import HeroSection from './components/HeroSection'
 
-import Preview from './components/Preview'
-import MixWish from './components/MixWish'
-import PreFooter from './components/PreFooter'
-import Remixes from './components/Remixes'
+import PreviewSection from './components/PreviewSection'
+import MixWishSection from './components/MixWishSection'
+import PreFooterSection from './components/PreFooterSection'
+import RemixesSection from './components/RemixesSection'
 
 export default function LandingPage() {
   return (
     <div className="bg-primary min-h-screen">
-      <Hero />
-      <Preview/>
-      <Remixes/>
-      <MixWish />
-      <PreFooter />
+      <HeroSection />
+      <PreviewSection/>
+      <RemixesSection/>
+      <MixWishSection />
+      <PreFooterSection />
     </div>
   )
 }

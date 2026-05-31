@@ -1,8 +1,8 @@
 import { Button } from '@heroui/react'
 
-export default function Hero() {
+export default function HeroSection() {
   return (
-    <section className="flex min-h-screen max-w-7xl items-center px-8 py-32 max-[1280px]:mx-6 max-[1280px]:px-0 min-[1280px]:mx-auto">
+    <section id="inicio" className="flex min-h-screen max-w-7xl items-center px-8 py-32 max-[1280px]:mx-6 max-[1280px]:px-0 min-[1280px]:mx-auto">
       <div className="flex flex-col gap-4 text-left">
         <p className="font-primary text-neutral text-sm tracking-wider max-[470px]:text-xs">
           EQUIPO DE WISHFACTORY NO. 1
