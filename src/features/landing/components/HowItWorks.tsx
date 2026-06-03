@@ -1,4 +1,4 @@
-import type { WishItemsProps } from '../types/WishItemsRemixes'
+import type { WishItemsProps } from '@/features/landing/types/WishItemsRemixes'
 import WishItemsRemixes from './WishItemsRemixes'
 
 export default function HowItWorks() {

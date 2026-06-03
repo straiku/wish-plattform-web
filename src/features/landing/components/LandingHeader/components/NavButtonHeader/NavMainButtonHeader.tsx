@@ -1,4 +1,6 @@
-import { cn } from '../../../../../../lib/clsx'
+'use client'
+
+import { cn } from '@/lib/clsx'
 import './styles/NavButtonHeader.css'
 
 interface NavMainButtonProps {

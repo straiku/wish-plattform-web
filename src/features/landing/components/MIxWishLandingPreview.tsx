@@ -1,10 +1,10 @@
+'use client'
+
 import { Chip } from '@heroui/react'
-import {
-  numberFormatterWithnumerOfDigits,
-  numerCompactNotationFormatter,
-} from '../../../logic/numbers'
+import { numberFormatterWithnumerOfDigits, numerCompactNotationFormatter } from '@/logic/numbers'
+
 import { HeartFill } from '@gravity-ui/icons'
-import type { MixWishLandingPreviewProps } from '../types/MixWishLandingPreview'
+import type { MixWishLandingPreviewProps } from '@/features/landing/types/MixWishLandingPreview'
 
 export default function MixWishLandingPreview({
   wishPlace,

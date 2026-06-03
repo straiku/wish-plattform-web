@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import WaterMark from '../../../../components/WaterMark/WaterMark'
+import Link from 'next/link'
+import WaterMark from '../WaterMark/WaterMark'
 
 export default function Footer() {
   return (
@@ -17,13 +17,13 @@ export default function Footer() {
         <div className="flex flex-row justify-around gap-20 max-[850px]:mt-5 max-[850px]:gap-5">
           <div className="font-primary flex flex-col flex-wrap justify-between gap-3 text-sm">
             <p className="text-contrast mb-3">PLATAFORMA</p>
-            <Link className="max-[850px]:text-xs" to="/">
+            <Link className="max-[850px]:text-xs" href="/">
               WishFactory
             </Link>
-            <Link className="max-[850px]:text-xs" to="/mixwish">
+            <Link className="max-[850px]:text-xs" href="/mixwish">
               MixWish
             </Link>
-            <Link className="max-[850px]:text-xs" to="/terms">
+            <Link className="max-[850px]:text-xs" href="/terms">
               Términos de uso y condiciones
             </Link>
           </div>
@@ -32,9 +32,9 @@ export default function Footer() {
             <a className="max-[850px]:text-xs" href="https://instagram.com/straiku" target="_blank">
               Instagram
             </a>
-            <Link className="max-[850px]:text-xs" to="mailto:straiku.official@gmail.com">
+            <a className="max-[850px]:text-xs" href="mailto:straiku.official@gmail.com">
               Correo
-            </Link>
+            </a>
             <a className="max-[850px]:text-xs" href="https://github.com/straiku" target="_blank">
               Github - STRAiKU
             </a>

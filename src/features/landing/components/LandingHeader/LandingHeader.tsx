@@ -1,8 +1,10 @@
+'use client'
+
 import { useState } from 'react'
 
 import { Avatar } from '@heroui/react'
 
-import AvatarNameHeader from './logic/extractNameInitials'
+import AvatarNameHeader from '@/logic/extractNameInitials'
 import NavMainButton from './components/NavButtonHeader/NavMainButtonHeader'
 import { NavMobilButtonHeader } from './components/NavMobilButtonHeader/NavMobilButtonHeader'
 
