@@ -3,7 +3,8 @@ import WaterMark from '../WaterMark/WaterMark'
 
 export default function Footer() {
   return (
-    <footer className="mx-auto max-w-7xl pt-20 pb-12 max-[850px]:pt-12 bg-white">
+    <footer className='w-full bg-white'>
+    <div className="mx-auto max-w-7xl pt-20 pb-12 max-[850px]:pt-12">
       <div className="flex justify-around gap-2 px-6 max-[850px]:flex-wrap">
         <div className="w-96 flex-col justify-start gap-5 max-[850px]:mx-2 max-[850px]:w-full">
           <h6 className="font-secondary text-left text-2xl italic max-[850px]:text-center max-[850px]:text-xl">
@@ -42,6 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <WaterMark />
+    </div>
     </footer>
   )
 }
