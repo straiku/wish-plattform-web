@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState ,useEffect } from 'react'
 
 import { Avatar } from '@heroui/react'
 
@@ -17,6 +17,38 @@ const LandingHeader = () => {
       behavior: 'smooth',
     })
   }
+
+    useEffect(()=>{
+
+    const sections = ['inicio', 'mixwish', 'preview','remixes']
+
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight / 3
+
+      for (const id of sections) {
+
+        const section = document.getElementById(id)
+        if (!section) continue
+
+        const top = section.offsetTop
+        const height = section.offsetHeight
+
+        if (
+          scrollPosition >= top &&
+          scrollPosition < top + height
+        ) {
+          setActive(id)
+          break
+        }
+
+      }
+    }
+
+    handleScroll()
+    window.addEventListener('scroll',handleScroll)
+
+    return ()=> window.removeEventListener('scroll',handleScroll)
+  },[])
 
   return (
     <div>
