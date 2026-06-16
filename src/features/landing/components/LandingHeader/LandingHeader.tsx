@@ -38,7 +38,6 @@ const LandingHeader = () => {
           scrollPosition < top + height
         ) {
           setActive(id)
-          console.log('section :' , section )
           break
         }
 
