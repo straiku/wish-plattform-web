@@ -1,4 +1,4 @@
-export default function LoginPage() {
+export default function DecorativePanel() {
   return (
     <div className="flex h-screen flex-row">
       <section className="bg-tertiary flex w-136 flex-col justify-center gap-4 px-20 text-left">
