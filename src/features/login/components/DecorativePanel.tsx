@@ -1,7 +1,7 @@
 export default function DecorativePanel() {
   return (
-    <div className="flex h-screen flex-row">
-      <section className="bg-tertiary flex w-136 flex-col justify-center gap-4 px-20 text-left">
+    <div className="bg-tertiary flex h-screen w-1/2 flex-row">
+      <section className="mx-auto flex w-136 flex-col justify-center gap-4 px-20 text-left">
         <p className="font-secondary text-sm tracking-wider text-amber-800">
           THE DIGITAL ALCHEMIST
         </p>
